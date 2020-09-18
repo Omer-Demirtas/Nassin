@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "945610757664",
+    "firebase_url": "https://chat-8cf38.firebaseio.com",
+    "project_id": "chat-8cf38",
+    "storage_bucket": "chat-8cf38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945610757664:android:6e061655c81e59e97d8e45",
+        "android_client_info": {
+          "package_name": "com.nassin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945610757664-4po4i9ebmdja25vecqb2sfce7n34hmus.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nassin",
+            "certificate_hash": "a333ddbcb59623728fac24add54e4f198ef7e6c4"
+          }
+        },
+        {
+          "client_id": "945610757664-hqu0f6goavtips1mijj874mn0v2j61h6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWEA2ChRah50vZmFH8YsqGTegRrJunozk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945610757664-hqu0f6goavtips1mijj874mn0v2j61h6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "945610757664-4m79isu3k8aguicp2d9e3giibtv98hkk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.message"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
