@@ -1,4 +1,4 @@
-[1]: http://www.github.com/your_contact_info
+[1]: https://drive.google.com/drive/u/0/folders/19lUyBJTOPhd9UAF14FDyvx-AyDTl5COL
 
 # Nassın
 
@@ -36,3 +36,7 @@ Flutter ile yazılmış mobil mesajlaşma uygulaması.
 
 ![alt text](/ss/stream.png)
 
+
+### Bildirim 
+
+![bildirim](/ss/notification.png)

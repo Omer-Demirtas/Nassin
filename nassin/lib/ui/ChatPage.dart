@@ -45,7 +45,6 @@ class ChatPage extends StatelessWidget{
                         backgroundImage: NetworkImage(e.profile.image),
                       ),
                       title: Text(e.profile.name),
-                      subtitle: Text(e.profile.id),
                     ),
                     Divider(),
                   ],

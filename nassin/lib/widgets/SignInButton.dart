@@ -10,12 +10,13 @@ class SignInButton extends StatelessWidget  {
   @override
   Widget build(BuildContext context) {
     var model = getIt<SignInModel>();
-
     return OutlineButton(
       splashColor: Colors.grey,
       onPressed: () async{
         user = await model.signInWithGoogle();
-        model.navigatorService.navigateAndDelete(HomePage(user: user,));
+        if(user != null){
+          await model.navigatorService.navigateAndDelete(HomePage(user: user,));
+        }
       },
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(40)),
       highlightElevation: 0,
@@ -42,5 +43,4 @@ class SignInButton extends StatelessWidget  {
       ),
     );
   }
-
 }

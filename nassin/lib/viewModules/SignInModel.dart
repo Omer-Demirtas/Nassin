@@ -38,6 +38,10 @@ class SignInModel extends BaseModel {
 
     FirebaseUser user = await _authService.signInWithGoogle();
 
+    if(user == null){
+      return null;
+    }
+
     String token = await _notificationService.getUserToken();
 
     Map<String, dynamic> userData = {

@@ -121,7 +121,7 @@ class _HomePage extends State<HomePage> with SingleTickerProviderStateMixin {
                   return [
                     SliverAppBar(
                       floating: true,
-                      title: Text("Messaging"),
+                      title: Text("Nassın"),
                       actions: <Widget>[
                         IconButton(
                           icon: Icon(Icons.search),
